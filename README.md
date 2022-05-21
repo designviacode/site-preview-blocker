@@ -1,14 +1,21 @@
-<div align="center">
-  <p align="center">
-    <img src="https://github.com/designviacode/site-preview-blocker/blob/mg/app-MVP/src/assets/img/icon-128.png" height="140px">
-    <br />
+<div align="start">
+  <p align="start" style="display: flex;">
+    <img src="https://github.com/designviacode/site-preview-blocker/blob/mg/app-MVP/src/assets/img/icon-128.png" height="64px">
+    <h2>PREVIEW BLOCKER</h2>
   </p>
 </div>
 
-# Site-Preview Blocker
 [![](https://img.shields.io/badge/GitHub-Source-blue)](https://github.com/designviacode/site-preview-blocker)
-been bothered by **content preview blockers** on [**🔗 Glassdoor**](https://glassdoor.com), [**🔗 Facebook**](https://facebook.com) & others..
-  NO MORE!!  **site-preview-blocker** to the rescue! ⛑️
+
+<div align="start">
+  <p align="start">
+    been bothered by <b>content preview blockers</b> on <a href="https://www.glassdoor.com"><b>🔗 Glassdoor</b></a>, <a href="https://www.facebook.com"><b>🔗 Facebook</b></a> & others..
+  </p>
+  <p>
+    <b>NO MORE!!</b>  <i>site-preview-blocker</i> to the rescue! ⛑️
+  </p>
+</div>
+<br>
 
 
 ### How to use Site-Preview Blocker:

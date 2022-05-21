@@ -35,12 +35,14 @@ const Popup = () => {
     chrome.tabs && chrome.tabs.query(
       { active: true, currentWindow: true },
       (tabs) => {
+        {/*
+          - tabID: current Tab ID
+          - messageType: message-type object
+          - callback fn - not much to explain here now, is there?
+        */}
         chrome.tabs.sendMessage(
-          // Current tab ID
           tabs[0].id || 0,
-          // Message type
           { type: 'GET_DOM', params: { platforms, tabUrl } },
-          // Callback executed when the content script sends a response
           (response) => console.log('response', response)
         );
       }

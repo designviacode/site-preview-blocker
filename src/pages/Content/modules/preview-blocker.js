@@ -23,16 +23,15 @@ export const previewBlocker = {
     }
   },
 
-  changeOverflow: (value) => {
-    const bodyEl = document.body;
-    const bodyComputedStyle = window.getComputedStyle(bodyEl);
+  changeOverflow: (element, value) => {
+    const bodyComputedStyle = window.getComputedStyle(element);
 
     if (!value) {
-      bodyEl.style.overflow = bodyComputedStyle.overflow === 'hidden'
+      element.style.overflow = bodyComputedStyle.overflow === 'hidden'
         ? 'auto'
         : 'hidden';
     } else {
-      bodyEl.style.overflow = value;
+      element.style.overflow = value;
     }
   },
 

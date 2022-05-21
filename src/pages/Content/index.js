@@ -9,7 +9,8 @@ const messagesFromReactAppListener = (msg, sender, sendResponse) => {
   const selectorsToRemove = platforms[tabUrl?.origin]?.selectors;
 
   previewBlocker.removeElements(selectorsToRemove);
-  previewBlocker.changeOverflow();
+  previewBlocker.changeOverflow(document.body);
+  previewBlocker.changeOverflow(document.documentElement);
 
   // Prepare the response object with information about the site
   const response = {

@@ -10,12 +10,9 @@
 <div align="start">
   <p align="start">
     been bothered by <b>content preview blockers</b> on <a href="https://www.glassdoor.com"><b>🔗 Glassdoor</b></a>, <a href="https://www.facebook.com"><b>🔗 Facebook</b></a> & others..
-  </p>
-  <p>
     <b>NO MORE!!</b>  <i>site-preview-blocker</i> to the rescue! ⛑️
   </p>
 </div>
-<br>
 
 
 ### How to use Site-Preview Blocker:

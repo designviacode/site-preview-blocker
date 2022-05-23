@@ -8,7 +8,7 @@ import '../../styles/flex.css';
 import './Popup.css';
 import './style.css';
 
-const platforms = {
+export const platforms = {
   [platformKeys.GLASSDOOR]: {
     label: 'Glassdoor',
     selectors: ["#ContentWallHardsell", "#jobsAwareness"],

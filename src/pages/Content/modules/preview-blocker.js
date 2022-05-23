@@ -27,7 +27,7 @@ export const previewBlocker = {
     const bodyComputedStyle = window.getComputedStyle(element);
 
     if (!value) {
-      element.style.overflow = bodyComputedStyle.overflow === 'hidden'
+      element.style.overflowY = bodyComputedStyle.overflow === 'hidden'
         ? 'auto'
         : 'hidden';
     } else {

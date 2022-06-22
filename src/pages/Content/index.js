@@ -77,5 +77,5 @@ const messagesFromReactAppListener = (msg, sender, sendResponse) => {
 * Fired when a message is sent from either an extension process or a content script.
 */
 chrome.runtime.onMessage.addListener(messagesFromReactAppListener);
-console.log('Must reload extension for modifications to take effect.');
+// console.log('Must reload extension for modifications to take effect.');
 createDOMButton();
